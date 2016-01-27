@@ -1,0 +1,11 @@
+
+import static extension com.bc360.configurator.property.PropertyAttribute.*
+
+package test {
+	configurable Test {
+		String c {
+			VISIBLE = 'true'
+			LABEL = 'bonjour toto'
+		}
+	}	
+}
